@@ -62,13 +62,13 @@ In this python script 3 functions are defined:
     * At last closes the connection
  
                                                              
-**The scripts must be used in this order to work:**
-    1. create a redshift cluster in AWS Console
-    2. create a IAM Role with s3 read permission and redshift full access
-    3. attach the Role to the redshift cluster
-    4. fill out the config with connection data regarding the redshift cluster and the ARN of the created role
-    5. run create_tables.py in the Terminal
-    6. run etl.py in the Terminal
+**The scripts must be used in this order to work:** \
+    1. create a redshift cluster in AWS Console\
+    2. create a IAM Role with s3 read permission and redshift full access\
+    3. attach the Role to the redshift cluster\
+    4. fill out the config with connection data regarding the redshift cluster and the ARN of the created role\
+    5. run create_tables.py in the Terminal\
+    6. run etl.py in the Terminal\
     7. cluster is ready to use
 
                                                         
